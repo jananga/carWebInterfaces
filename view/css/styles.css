@@ -1,0 +1,99 @@
+
+/*Navigation Start*/
+.navbar-inverse {
+    background: #128e73;
+    background: -webkit-linear-gradient(#149777,#10846f);
+    background: linear-gradient(#149777,#10846f);
+    border-color: #149777;
+}
+
+.navbar-brand {
+     height: auto; 
+}
+
+.label-allAds {
+    background-color: #10685F;
+    display: inline;
+    padding: 0.4em 0.8em 0.4em 0.8em;
+    font-size: 100%;
+    /* font-weight: 700; */
+    line-height: 2;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 1.0em;
+}
+
+.container{
+
+   max-width: 984px;
+}
+
+.btn-group{
+
+    display: inline;
+    font-size: 100%;
+    line-height: 2;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline
+}
+
+.btn-group>.btn:last-child:not(:first-child) {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.btn-group>.btn:first-child:not(:last-child) {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.menu-group{
+    vertical-align: baseline;
+    line-height: 2;
+
+    padding: 11px 0px 0px 10px;
+}
+
+.btn-menu-group {
+    color: #fff;
+    background-color: transparent;
+    border-color: #197760;
+}
+
+.material-icons{
+    font-size:21px; 
+    color:white;
+    border: 1px solid #197760;
+    border-radius: 15px;
+    padding: 4px;
+}
+
+.glyphicon-user{
+    font-size: 16px;
+    color: white;
+    line-height: 2;
+}
+
+.navbar-inverse .navbar-nav>li>a {    
+    color: white;
+
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: #e7e4e4;
+}
+
+.navbar-inverse .navbar-nav>li>a>span:hover{
+    color: #e7e4e4;
+
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #10685F;
+}
+
+/*Navigation End*/
