@@ -96,4 +96,23 @@
     background-color: #10685F;
 }
 
+
+.btn-primary-heading {
+    color: #673500;
+    background: #ffd972;
+    text-shadow: 0 1px 0 #ffee96;
+    background: #ffca5e;
+    background: -webkit-linear-gradient(#ffd972,#ffba49);
+    background: linear-gradient(#ffd972,#ffba49);
+    -webkit-box-shadow: 0 1px 2px 0 #004137;
+    box-shadow: 0 1px 2px 0 #004137;
+    height: 42px;
+    font-weight: bold;
+}
+.btn-primary-heading:hover {
+background: #fdc55d;
+    background: -webkit-linear-gradient(#fae19d,#ffa91c);
+    background: linear-gradient(#fae19d,#ffa91c);
+}
+
 /*Navigation End*/
