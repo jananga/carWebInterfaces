@@ -11,6 +11,8 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/styles.css" />
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
 
 
 </head>
@@ -78,26 +80,139 @@
   <!-- navigation End -->
 
 
+  <div class="container">
+    <div class="secondary-content">
 
-  <div class="jumbotron text-center">
+      <!-- Secondrary search menu start -->
 
-    <h1>My First Bootstrap Page</h1>
-    <p>Resize this responsive page to see the effect!</p>
+      <div class="search-menu-back">
+        <div class="row row-margin">
+          <div class="col-lg-3 pmzero">
+            <button type="button" class="btn btn-ikman button-custom-width">
+              <i class="fas fa-map-marker-alt"></i>
+              Select Location
+            </button>
+          </div>
+          <div class="col-lg-3 pmzero">
+            <button type="button" class="btn btn-ikman button-custom-width">
+              <i class="fas fa-tag"></i>
+              Cars
+            </button>
+          </div>
+          <div class="col-lg-6 pmzero">
+
+            <div class="input-group input-group-search">
+              <input type="text" class="form-control input-search" placeholder="Search for...">
+              <span class="input-group-btn">
+                <button class="btn btn-search" type="button">
+                  <i class="fa fa-search fa-fw"></i> Search</button>
+              </span>
+            </div>
+
+            <!-- <button type="button" class="btn btn-ikman button-custom-width">Default</button> -->
+          </div>
+        </div>
+      </div>
+
+    </div>
   </div>
+  <!-- Secondrary search menu end -->
+
 
   <div class="container">
-    <div class="row">
-      <div class="col-sm-4">
-        <h3>Column 1</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+
+    <div class="row row-margin-content">
+      <div class="col-lg-3 left-panel">
+        <h6>Sort results by:</h6>
+        <hr/>
+        <!-- drop down select start -->
+        <div class="row">
+          <div class="col-md-12">
+            <fieldset>
+
+              <!-- Select Basic -->
+              <div class="form-group">
+                <div class="col-md-12">
+                  <select id="selectbasic" name="selectbasic" class="form-control">
+                    <option value="date_desc" selected="selected">Date: Newest on top</option>
+                    <option value="date_asc">Date: Oldest on top</option>
+                    <option value="mileage_desc">Mileage: High to Low</option>
+                    <option value="mileage_asc">Mileage: Low to High</option>
+                    <option value="price_desc">Price: High to Low</option>
+                    <option value="price_asc">Price: Low to High</option>
+                  </select>
+                </div>
+              </div>
+
+            </fieldset>
+          </div>
+        </div>
+        <!-- drop down select end -->
+
+        <!-- Type of poster start -->
+        <h6>Type of poster</h6>
+        <hr/>
+        <div class="row">
+          <div class="col-md-12">
+            <fieldset>
+
+              <div class="form-group">
+                <div class="col-md-12">
+                  <div class="radio">
+                    <label for="radios-0">
+                      <input type="radio" name="radios" id="radios-0" value="1" checked="checked"> All posters
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label for="radios-1">
+                      <input type="radio" name="radios" id="radios-1" value="2"> Only members
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+            </fieldset>
+          </div>
+        </div>
+
+        <!-- Type of poster end -->
+
+
+        <div class="row">
+          <div class="col-md-12" id="left-panel-acordian">
+            <ul class="nav nav-stacked" id="accordion1">
+              <li class="panel">
+                <a data-toggle="collapse" data-parent="#accordion1" href="#firstLink">Category</a>
+
+                <ul id="firstLink" class="collapse">
+                  <li>Cars & Vehicles</li>
+                  <li>SubTest1</li>
+                  <li>SubTest1</li>
+                </ul>
+
+              </li>
+              <li class="panel">
+                <a data-toggle="collapse" data-parent="#accordion1" href="#secondLink">Test2</a>
+
+                <ul id="secondLink" class="collapse">
+                  <li>SubTest2</li>
+                  <li>SubTest2</li>
+                  <li>SubTest2</li>
+                  <li>SubTest2</li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Test1</a>
+              </li>
+              <li>
+                <a href="#">Test1</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-9">Lorem</div>
+        </div>
       </div>
-      <div class="col-sm-4">
-        <h3>Column 2</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-      </div>
-      <div class="col-sm-4">
+      <div class="col-lg-9 right-panel">
         <h3>Column 3</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
         <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
